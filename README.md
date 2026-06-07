@@ -118,7 +118,7 @@ Plug the ESP32 into your phone/tablet (USB-OTG) and flash from CNC Control itsel
 </table>
 
 <p align="center">
-  <img src="assets/web-flasher.png" alt="Web-based firmware flasher with target chip and baud rate selection" width="420">
+  <img src="assets/web-flasher.png" alt="Web-based firmware flasher with target chip and baud rate selection" width="318">
   &nbsp;&nbsp;
   <img src="assets/in-app-flasher.png" alt="Flash ESP32 Firmware screen inside the CNC Control app" width="220">
 </p>
