@@ -2,10 +2,18 @@
 
 > Turn a phone or tablet into a wireless jog pendant and macro pad for your CNC, laser, or router.
 
-[![Get it on Google Play](https://img.shields.io/badge/Google%20Play-Download-34A853?logo=googleplay&logoColor=white)](https://play.google.com/store/apps/details?id=dngsoftware.cnccontrol&hl=en)
-![Platform](https://img.shields.io/badge/platform-Android-3DDC84?logo=android&logoColor=white)
-![Bridge](https://img.shields.io/badge/bridge-Windows%20%7C%20ESP32-9bd13f)
-![Link](https://img.shields.io/badge/link-Wi--Fi%20%7C%20Bluetooth-3d8bf0)
+<p align="center">
+  <a href="https://play.google.com/store/apps/details?id=dngsoftware.cnccontrol&hl=en">
+    <img alt="Get it on Google Play" height="64"
+         src="https://play.google.com/intl/en_us/badges/static/images/badges/en_badge_web_generic.png">
+  </a>
+</p>
+
+<p align="center">
+  <img alt="Platform: Android" src="https://img.shields.io/badge/platform-Android-3DDC84?logo=android&logoColor=white">
+  <img alt="Bridge: Windows or ESP32" src="https://img.shields.io/badge/bridge-Windows%20%7C%20ESP32-9bd13f">
+  <img alt="Link: Wi-Fi or Bluetooth" src="https://img.shields.io/badge/link-Wi--Fi%20%7C%20Bluetooth-3d8bf0">
+</p>
 
 CNC Control sends keyboard shortcuts to your machine over the network or via a USB
 keyboard emulator. To get started you set up **one** bridge between the app and your
