@@ -230,3 +230,4 @@ Tap a button to set its **label**, **colour** and **width**, and to define the e
 - **Windows receiver (XP):** https://github.com/DnG-Crafts/CNC-Control/releases/download/WIN-XP/CncReceiver.zip
 - **ESP32 firmware:** https://github.com/DnG-Crafts/CNC-Control/releases/tag/ESP32
 - **Web flasher:** https://d-n-g.github.io/flasher.html
+- **Web guide:** https://d-n-g.github.io/guide.html
