@@ -17,15 +17,15 @@
 
 CNC Control sends keyboard shortcuts to your machine over the network or via a USB
 keyboard emulator. To get started you set up **one** bridge between the app and your
-machine — either the **Windows receiver** or an **ESP32 dongle**.
+machine - either the **Windows receiver** or an **ESP32 dongle**.
 
 ---
 
 ## Contents
 
 - [Choose your bridge](#choose-your-bridge)
-- [Option 1 — Windows Receiver](#option-1--windows-receiver)
-- [Option 2 — ESP32 Dongle](#option-2--esp32-dongle)
+- [Option 1 - Windows Receiver](#option-1--windows-receiver)
+- [Option 2 - ESP32 Dongle](#option-2--esp32-dongle)
 - [Connecting & the app menu](#connecting--the-app-menu)
 - [Profiles, layout & key bindings](#profiles-layout--key-bindings)
 - [Troubleshooting](#troubleshooting)
@@ -36,7 +36,7 @@ machine — either the **Windows receiver** or an **ESP32 dongle**.
 ## Choose your bridge
 
 The app needs something on the other end to receive its commands. Pick whichever
-suits your setup — you only need one.
+suits your setup - you only need one.
 
 | | **Windows Receiver** | **ESP32 Dongle** |
 |---|---|---|
@@ -47,7 +47,7 @@ suits your setup — you only need one.
 
 ---
 
-## Option 1 — Windows Receiver
+## Option 1 - Windows Receiver
 
 The quickest route. Download the receiver, run it, and let the app find it on your network.
 
@@ -63,9 +63,9 @@ Grab the build that matches your Windows version:
 ### 2. Unzip and run it
 
 Extract the archive and launch the app. It runs in the **notification area** (system
-tray, near the clock) — there's no main window.
+tray, near the clock) - there's no main window.
 
-### 3. Optional — start with Windows
+### 3. Optional - start with Windows
 
 Right-click the tray icon and enable **Start with Windows** so the receiver is ready
 after every reboot.
@@ -86,19 +86,19 @@ With the receiver running, open CNC Control and find it under **Wi-Fi**.
 
 ---
 
-## Option 2 — ESP32 Dongle
+## Option 2 - ESP32 Dongle
 
 For the hardware route you need an **ESP32-S2** or **ESP32-S3** board or dongle. It
 emulates a real USB keyboard to the target machine, then talks to your phone over
 **Bluetooth or Wi-Fi**.
 
-### Step 1 — Flash the firmware (pick one method)
+### Step 1 - Flash the firmware (pick one method)
 
 <table>
 <tr>
-<th>Option A — Manual</th>
-<th>Option B — Browser</th>
-<th>Option C — In-app</th>
+<th>Option A - Manual</th>
+<th>Option B - Browser</th>
+<th>Option C - In-app</th>
 </tr>
 <tr>
 <td valign="top">
@@ -110,7 +110,7 @@ Download the firmware binary and flash it with your own tool.
 </td>
 <td valign="top">
 
-Flash straight from a Chrome-based browser over USB — no install.
+Flash straight from a Chrome-based browser over USB - no install.
 
 [Web flasher →](https://d-n-g.github.io/flasher.html)
 
@@ -135,12 +135,12 @@ Plug the ESP32 into your phone/tablet (USB-OTG) and flash from CNC Control itsel
 Leave the chip selection on **Auto-detect** unless flashing fails, then pick your exact
 board (ESP32-S2 or ESP32-S3).
 
-### Step 2 — Plug it into the machine
+### Step 2 - Plug it into the machine
 
 Once the firmware is on the ESP32, disconnect it from the flashing source and plug it
 into your **target machine**.
 
-### Step 3 — Connect from the app
+### Step 3 - Connect from the app
 
 Open CNC Control and connect to the dongle over **Bluetooth** or **Wi-Fi**.
 
@@ -148,18 +148,18 @@ Open CNC Control and connect to the dongle over **Bluetooth** or **Wi-Fi**.
 
 ## Connecting & the app menu
 
-However you bridged in, the **app menu** is mission control — connection, machine
+However you bridged in, the **app menu** is mission control - connection, machine
 profiles, layout and firmware all live here.
 
 <p align="center">
   <img src="assets/app-menu.jpg" alt="CNC Control app menu showing machine profile, connection type, layout and firmware options" width="300">
 </p>
 
-1. **Open the menu** — tap the menu icon (top-left). Every setting lives here.
-2. **Pick your connection type** — choose how to connect, then tap the connection row
+1. **Open the menu** - tap the menu icon (top-left). Every setting lives here.
+2. **Pick your connection type** - choose how to connect, then tap the connection row
    to link up. The **Windows receiver is Wi-Fi only**; an **ESP32 dongle** can use
    Bluetooth or Wi-Fi. **Configure** lets you set the IP and port manually.
-3. **Jump to setup tools** — from here you reach **Edit Layout**, **Key Bindings**, and
+3. **Jump to setup tools** - from here you reach **Edit Layout**, **Key Bindings**, and
    **Flash ESP32 Firmware**.
 
 ---
@@ -171,7 +171,7 @@ map each one to the keyboard shortcut your software expects.
 
 ### Create machine profiles
 
-Add a profile per machine and switch between them — the active profile drives the
+Add a profile per machine and switch between them - the active profile drives the
 buttons you see. Tap **+ New Profile** to add one, or select an existing profile to edit
 or remove it.
 
@@ -191,7 +191,7 @@ the pencil to edit. Use **+ Add** for new buttons and **Done** when finished.
 ### Edit key bindings & buttons
 
 Open the button list to add or remove buttons and see each one's key binding at a
-glance — e.g. `Alt+F` for Frame, `Alt+S` for Start, `Alt+L` for Stop.
+glance - e.g. `Alt+F` for Frame, `Alt+S` for Start, `Alt+L` for Stop.
 
 <p align="center">
   <img src="assets/edit-buttons.jpg" alt="Edit Buttons list showing each button with its key binding" width="300">
@@ -200,7 +200,7 @@ glance — e.g. `Alt+F` for Frame, `Alt+S` for Start, `Alt+L` for Stop.
 ### Tune a single button
 
 Tap a button to set its **label**, **colour** and **width**, and to define the exact
-**key binding** — including modifiers like `Ctrl`, `Shift`, `Alt`, `GUI` and `Num`.
+**key binding** - including modifiers like `Ctrl`, `Shift`, `Alt`, `GUI` and `Num`.
 
 <p align="center">
   <img src="assets/edit-button.jpg" alt="Edit Button dialog with label, colour, width and key binding fields" width="300">
